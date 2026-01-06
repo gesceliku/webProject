@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background-color: #f4f4f4;
+    background: linear-gradient(to bottom, #fff, #68dce2);
+}
+.add-doctor-form{
+    display: flex;
+    justify-content: center;
+}
+.add-doctor-form input {
+
+    padding: 8px;
+    margin: 10px 0;
+    width: calc(100% - 20px);
+    font-size: 16px;
+}
+
+.add-doctor-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+}
+
+.add-doctor-form button:hover {
+    background-color: #45a049;
+}
+#h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#doctorName{
+    width: 40%;
+    margin-right: 10px;
+}
+
+#btn{
+    width: auto;
+    height: 35px;
+    margin-top: 12px;
+    
+    
+}
+.container {
+    
+    max-width: 90%;
+    margin: 40px;
+    margin-bottom: 320px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.doctor-list {
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+#doctorname{
+    margin-left: 75%;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.doctor {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.doctor:last-child {
+    border-bottom: none;
+}
+
+.doctor button {
+    color: #e53935; /* A more accessible red color */
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+}
+
+.doctor button:hover {
+    color: #c62828; /* Darker red for hover effect */
+}

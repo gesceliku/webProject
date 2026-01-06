@@ -1,0 +1,87 @@
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    background: linear-gradient(to bottom, #fff, #68dce2);
+}
+
+
+table {
+    width: 50%;
+    margin: 60px auto;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: beige;
+}
+
+.navbar {
+    background-color: white;;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 10px 20px;  
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease-in-out;  
+}
+.navbar.scrolled {
+    background-color: #0288d1; 
+    backdrop-filter: none;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px; 
+}
+
+
+.navbar-nav img {
+    height: 80px;
+    width: auto;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase; 
+    position: relative;
+    padding-bottom: 8px;
+    transition: color 0.3s ease, transform 0.3s ease, border-bottom 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: blue ;  
+    transform: scale(1.30);  
+    border-bottom: 2px solid rgb(73, 103, 212);  
+}
+
+.navbar.scrolled {
+    background: rgba(9, 43, 163, 1);  
+    backdrop-filter: none;  /
+}
+
+
+.navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.1);  
+}
+
+.navbar-toggler-icon {
+    background-color: white; 
+}

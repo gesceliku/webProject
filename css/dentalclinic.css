@@ -1,0 +1,89 @@
+#clinicSelect {
+    display: flex;
+    width: 60%;
+    padding: 12px 20px;
+    margin-left: 20%; 
+    font-size: 16px; 
+    border-radius: 8px; 
+    border: 1px solid #ccc; 
+    background-color: #f9f9f9; 
+    color: #333; 
+    height: 50px; 
+    line-height: 1.5; 
+    box-sizing: border-box; 
+}
+
+
+#clinicSelect:focus {
+    border-color: #007bff; 
+    background-color: #e7f1ff; 
+    outline: none; 
+}
+
+
+#clinicSelect option {
+    padding: 12px; 
+    background-color: #fff;
+    color: #333;
+}
+
+
+#clinicSelect option:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+
+table {
+    width: 50%;
+    margin: 60px auto;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: beige;
+}
+
+.booking-form-container {
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.booking-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booking-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.booking-form button:hover {
+    background-color: #0056b3;
+}
+#text1 {
+    display: flex;
+    justify-content: center;  
+    align-items: center;       
+    margin-top: 150px;   
+    margin-bottom: 50px;        
+    text-align: center;        
+    font-size: 44px;          
+    font-weight: 600;           
+    color: #333;                
+}
